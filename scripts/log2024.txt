@@ -1,0 +1,93 @@
+03.01.
+#All analysis scripts and data of BeP8 is copied to 1TStorage (updated until 03.Jan)
+#All analysis scripts and thesis copied to $HOME/BeAnalysis (updated untill 03.Jan)
+(Please updata again at 01.Feb)
+
+03.01
+#modified MC histogram weights to weight_flux(this was by mistake used weight = 1, which is wrong)
+#run script make_beta_eventsatHighR.py to generate the tuned beta at high R histogram for N, C, Li, B
+#run script generate_masshist_iss.py to get Carbon Rigidity resolution ISS -> compare with MC.
+
+04.01
+#modify plot, carbon, oxygen rig data-mc comparison with reference rigidity from beta
+#run script make_beta_eventsatHighR.py to generate the tuned beta at high R histogram for N, C, Li, B
+#write all information of calculating fluxes into txt files
+#update script Be_MassFit_AllSteps_P8B1236.py using the latest massfunction version *GBLV2.py
+#remove the related old scripts of Be_MassFit*
+#update the Beta resolution plots with flux weight
+
+In the whole week from 06.Jan to 13.01, I was mainly focused on presentations and only did useless things
+
+13.01
+#updated mc mass 2D-hist with flux weight
+#compare the acc and corrections with Jiahui
+#Re-run mc Pass8
+#Run acceptance for Li and run other ingredients for Boron.
++compare counts before and after fits for MC Mix template fits 
+
+14.01
++compare counts
++compare acceptance
++compare measuring time
++plot of TofBeta
++plots of interval range
++plots of comparison ( this-> Geneva)
+
+all the comparison with Jiahui
+the test with MCMix
+
+30.01
+#compare with Jiahui: need to update, re-run the data again
+#rm some old scripts with Be_Templatefit (but there are still old versions in Achive )
+#rm some old ipynb scripts with plot_counts* (but still kept in Achive)
+#run the script with iss_counts to get the Li, Be counts vs R with preselection
+
+To finish the average flux chapter:
+#run data Boron
+#run effficiency Li and Boron
+#run lq1 efficiency jobs, run inntrk eff jobs for Li B (To do: should combine the efficiency of Li Be Boron in one job, so only need to be submitted once)
++plot acceptance and total efficiency Li, Be, B
++unfolding with rigidity resolution Li, Be, B
+
+5.Feb
+#plots of fit results range
+#plots of rigidity cutoff cut with beta cutoff (to extract Li7 and Be10 from data)
+6 Feb
+Li7 mass Data/MC comparsion
+
+8.Feb writing 
+#ToF charge cut efficiency
+#background reduction cut efficiency
+#Unfolding 
+#Be nuclei flux
+
+9.Feb
+#write the background cut efficiency, summary of the efficiency
+
+10.Feb 
+#write the unfolding of Be flux
+#plots of rigidity resolution
+#Run Lithium -> get lithium results
+
+12.Feb
+#beta cutoff for tof and NaF
+ -combine data/mc in one script
+ -run tof/naf/agl with different binning, for both data, mc 
+#run lithiun fit counts, finish the efficiency corrections for lithium, lithium raw fluxes
+
+
+19.Feb
+#submit jobs for rerun efficiency for ISS, Be
+-To do: submit for B, C, N, O MC
+-run the background fragmentation for Li
+
+
+24.Feb
+move plot_rich_efficiency_comjiahui.py to Achive
+
+
+
+
+
+
+
